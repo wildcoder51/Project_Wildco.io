@@ -1,0 +1,62 @@
+/* Header */
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wild_header {
+    padding: 0px 25%;
+    font-size: 50px;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/* Section */ 
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc_banner {
+    position: absolute;
+}
+
+/* hr */
+hr {
+    width: 30%;
+    align: center;
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* Main */
+main {
+
+}
+.logo_entreprises {
+
+}
+.nom_entreprises {
+
+}
+.desc {
+
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
