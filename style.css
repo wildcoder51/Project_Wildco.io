@@ -24,7 +24,7 @@
 }
 .desc_banner {
     position: absolute;
-    font-size:20px;
+    font-size: 20px;
 }
 
 /* hr */
@@ -48,7 +48,7 @@ main {
 }
 .desc {
     width: 85%;
-    margin:0;
+    margin: 0px;
 }
 .flex1 {
     display: flex;
@@ -63,18 +63,24 @@ main {
     flex-direction: row-reverse;
     background-color: whitesmoke;
 }
-.flex_text1{
-    display:flex;
-    flex-direction: column;
+.flex_text1 {
+    display: flex;
     align-items: flex-start;
+    flex-direction: column;
     margin-left: 15px;
 }
-.flex_text2{
-    display:flex;
-    flex-direction: column;
+.flex_text2 {
+    display: flex;
     align-items: flex-end;
+    flex-direction: column;
     margin-right: 15px;
 }
+.wilders {
+
+}
+
+/* Footer */
+
 footer{
     display: flex;
     justify-content: center;
