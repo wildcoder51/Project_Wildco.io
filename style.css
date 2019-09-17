@@ -1,0 +1,16 @@
+hr {
+    width: 30%;
+    align: center;
+    height: 3px;
+    background-color:black;
+    border-radius:50%;
+}
+
+a, p{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+}
