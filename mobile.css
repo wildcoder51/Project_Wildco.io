@@ -62,12 +62,12 @@
 
 .desc{
     text-align: left;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
     font-size: 20px;
 }
 
 .wilders{
+    display: none;
     text-align: right;
     font-style: italic;
     color: brown;
@@ -84,8 +84,8 @@
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: red; 
-    color: white; 
+    background-color: whitesmoke; 
+    color: black; 
     cursor: pointer; 
     padding: 10px; 
     border-radius: 10px;
