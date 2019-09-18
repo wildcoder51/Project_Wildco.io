@@ -3,11 +3,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Righteous', cursive;
 }
 
 
 .wild_header {
     font-size: 50px;
+    letter-spacing: 1rem;
 }
 
 .contact {
@@ -25,6 +27,9 @@
 .desc_banner {
     position: absolute;
     font-size: 20px;
+}
+.banner_img {
+    border-radius: 15%;
 }
 
 /* hr */
@@ -44,24 +49,31 @@ main {
 
 }
 .nom_entreprises {
-
+    font-family: 'Righteous', cursive;
+}
+.wilders {
+    display: none;
 }
 .desc {
-    width: 85%;
+    width: 65%;
     margin: 0px;
+    font-size: 18px;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 .flex1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
+    padding-inline-start: 5%;
 }
 .flex2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row-reverse;
     background-color: whitesmoke;
+    padding-inline-end: 5%;
 }
 .flex_text1 {
     display: flex;
@@ -75,9 +87,26 @@ main {
     flex-direction: column;
     margin-right: 15px;
 }
-.wilders {
-    
-}
+
+/* Bouton */
+#myBtn {
+    display: transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+ }
+ #myBtn:hover {
+    background-color: #555;
+ }
 
 /* Footer */
 
