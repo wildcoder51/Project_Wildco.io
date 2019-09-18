@@ -1,4 +1,6 @@
+
 /* Header */
+
 .head {
     display: flex;
     justify-content: space-around;
@@ -8,12 +10,14 @@
 
 .wild_header {
     font-size: 50px;
+    font-family: 'Righteous', cursive;
 }
 
 .contact {
     text-decoration: none;
     color: black;
     font-size: 30px;
+    font-family: 'Righteous', cursive;
 }
 
 /* Section */ 
@@ -41,14 +45,15 @@ main {
 
 }
 .logo_entreprises {
-
+    
 }
 .nom_entreprises {
-
+    font-family: 'Righteous', cursive;
 }
 .desc {
     width: 85%;
     margin: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 .flex1 {
     display: flex;
@@ -76,7 +81,7 @@ main {
     margin-right: 15px;
 }
 .wilders {
-
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 /* Footer */
