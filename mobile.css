@@ -16,9 +16,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: greenyellow;
+    color: #e1726e;
     font-size: 3rem;
-    
+        
 }
 
 .contact{
@@ -36,6 +36,17 @@
 }
 
 .desc_banner{    
+    text-align: justify;
+    font-size: 20px;
+    padding: 2rem 2rem 6rem 2rem;
+}
+
+hr {
+    margin: 0 25% 0 25%;
+    width: 50%;
+    height: 3px;
+    background: #e1726e;
+    border: none;
 }
 
 .logo_entreprises{
@@ -61,9 +72,10 @@
 }
 
 .desc{
-    text-align: left;
+    text-align: justify;
     padding: 2rem;
     font-size: 20px;
+    
 }
 
 .wilders{
