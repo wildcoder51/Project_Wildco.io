@@ -5,6 +5,7 @@
     align-items: center;
 }
 
+
 .wild_header {
     font-size: 50px;
 }
@@ -85,12 +86,12 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.twitter {
-    width: 70px;
-}
-.logowild {
+.logowild{
     width: 100px;
 }
-.linkdin {
+.twitter{
+    width: 70px;
+}
+.linkedin{
 
 }
