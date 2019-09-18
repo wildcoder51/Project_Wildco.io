@@ -3,7 +3,104 @@
     margin: 0;
 }
 
-body{
-    background: #c3c3c3;
+
+.top_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    
 }
 
+.wild_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: greenyellow;
+    font-size: 3rem;
+    
+}
+
+.contact{
+    visibility: hidden;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner{
+    display: none;
+}
+
+.desc_banner{    
+}
+
+.logo_entreprises{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.nom_entreprises{
+    text-align: center;
+    margin: 1rem;
+}
+
+.flex1{
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.flex2{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+}
+
+.desc{
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 20px;
+}
+
+.wilders{
+    text-align: right;
+    font-style: italic;
+    color: brown;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    font-size: 18px;
+}
+
+#myBtn {
+    display: transparent; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+footer{
+    padding: 2rem;
+}
+
+.logowild{
+    display: flex;
+    justify-content: center;
+}
