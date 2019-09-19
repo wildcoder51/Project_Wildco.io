@@ -3,22 +3,37 @@
     margin: 0;
 }
 
+header{
+    background-image:url(img/fondmobile.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+body{
+    background: linear-gradient(rgb(233, 220, 220), rgb(130, 179, 149))
+}
 
 .top_logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2rem;
-    
+    margin: 0rem 2rem 2rem 2rem;   
 }
 
 .wild_header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: #e1726e;
-    font-size: 3rem;
-        
+    color: white;
+    background-color: #e1726ee7;
+    border-radius: 1rem;
+    font-size: 3rem;  
+    font-weight: 800;  
+    margin: 0rem 1rem 0rem 1rem;
 }
 
 .contact{
@@ -29,6 +44,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background: whitesmoke;
+    opacity: 0.9;
+    border-radius: 1rem;
+    margin: 0rem 2rem 0rem 2rem
 }
 
 .banner{
@@ -36,13 +55,15 @@
 }
 
 .desc_banner{    
-    text-align: justify;
-    font-size: 20px;
-    padding: 2rem 2rem 6rem 2rem;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 2rem;
 }
 
 hr {
-    margin: 0 25% 0 25%;
+    display: none;
+    margin: 5% 25% 5% 25%;
     width: 50%;
     height: 3px;
     background: #e1726e;
@@ -64,11 +85,13 @@ hr {
 .flex1{
     background-color: white;
     border-radius: 1rem;
+    margin: 0rem 2rem 0rem 2rem;
 }
 
 .flex2{
     background-color: whitesmoke;
     border-radius: 1rem;
+    margin: 0rem 2rem 0rem 2rem;
 }
 
 .desc{
