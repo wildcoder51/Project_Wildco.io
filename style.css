@@ -1,7 +1,11 @@
-* {
- margin
+/* Page */
+
+*{
+  margin: 0;  
 }
+
 /* Header */
+
 .head {
     display: flex;
     justify-content: space-around;
@@ -13,12 +17,15 @@
 .wild_header {
     font-size: 50px;
     letter-spacing: 1rem;
+    color:#F99797;
 }
 
 .contact {
     text-decoration: none;
     color: black;
     font-size: 30px;
+    font-family: 'Righteous', cursive;
+    color:#F99797;
 }
 
 /* Section */ 
@@ -26,34 +33,36 @@
     position: relative;
 }
 .desc_banner {
-    font-size: 20px;
+    font-size: 1.8vw;
+    font-family: 'Righteous', cursive;
+    color:#F99797;
+}
+.box_banner{
+    width: 33%;
+    position: absolute;
+    left: 16%;
+    top: 20%;
+    height: 50%;
 }
 .banner_img {
-    width: 100%;
-}
-.box_banner {
-    position: absolute;
-    width: 30%;
-    left: 17%;
-
-
+    width:100%;
 }
 
 /* hr */
 hr {
     width: 30%;
-    align: center;
     height: 3px;
     background-color: black;
     border-radius: 50%;
+    margin: 25px 35%;
 }
 
 /* Main */
 main {
-
+    margin-top:30px;
 }
 .logo_entreprises {
-
+    
 }
 .nom_entreprises {
     font-family: 'Righteous', cursive;
@@ -64,6 +73,7 @@ main {
 }
 .desc {
     width: 100%;
+    margin: 0px;
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -73,6 +83,7 @@ main {
     align-items: center;
     flex-direction: row;
     padding-inline-start: 5%;
+    padding: 25px 0;
 }
 .flex2 {
     display: flex;
@@ -81,6 +92,7 @@ main {
     flex-direction: row-reverse;
     background-color: whitesmoke;
     padding-inline-end: 5%;
+    padding: 25px 0;
 }
 .flex_text1 {
     display: flex;
@@ -95,6 +107,9 @@ main {
     flex-direction: column;
     margin-right: 15px;
     width: 40%;
+}
+.logo_box{
+
 }
 
 /* Bouton */
@@ -120,9 +135,12 @@ main {
 /* Footer */
 
 footer{
+    background:linear-gradient(to top left, #F99797, white);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:40px;
+    padding:10px;
 }
 .logowild{
     width: 100px;
