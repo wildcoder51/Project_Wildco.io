@@ -1,3 +1,6 @@
+* {
+ margin
+}
 /* Header */
 .head {
     display: flex;
@@ -20,16 +23,20 @@
 
 /* Section */ 
 .carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 .desc_banner {
-    position: absolute;
     font-size: 20px;
 }
 .banner_img {
-    border-radius: 15%;
+    width: 100%;
+}
+.box_banner {
+    position: absolute;
+    width: 30%;
+    left: 17%;
+
+
 }
 
 /* hr */
@@ -50,13 +57,13 @@ main {
 }
 .nom_entreprises {
     font-family: 'Righteous', cursive;
+    margin-right: auto;
 }
 .wilders {
     display: none;
 }
 .desc {
-    width: 65%;
-    margin: 0px;
+    width: 100%;
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -80,12 +87,14 @@ main {
     align-items: flex-start;
     flex-direction: column;
     margin-left: 15px;
+    width: 40%;
 }
 .flex_text2 {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     margin-right: 15px;
+    width: 40%;
 }
 
 /* Bouton */
