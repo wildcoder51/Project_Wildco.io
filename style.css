@@ -34,7 +34,7 @@
     position: relative;
 }
 .desc_banner {
-    font-size: 1.8vw;
+    font-size: 1.75vw;
     font-family: 'Righteous', cursive;
     color:#F99797;
 }
@@ -84,7 +84,7 @@ main {
     align-items: center;
     flex-direction: row;
     padding-inline-start: 5%;
-    padding: 25px 0;
+    padding: 25px 15px;
 }
 .flex2 {
     display: flex;
@@ -93,7 +93,7 @@ main {
     flex-direction: row-reverse;
     background-color: whitesmoke;
     padding-inline-end: 5%;
-    padding: 25px 0;
+    padding: 25px 15px;
 }
 .flex_text1 {
     display: flex;
@@ -135,20 +135,33 @@ main {
 
 /* Footer */
 
-footer{
-    background:linear-gradient(to top left, #F99797, white);
+.logobox{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top:40px;
     padding:10px;
 }
+footer{
+    background: linear-gradient(#F99797, rgb(130, 179, 149));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
 .logowild{
     width: 100px;
+    border-radius: 10px;
 }
 .twitter{
     width: 70px;
 }
 .linkedin{
 
+}
+.firstnamefooter{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
 }
