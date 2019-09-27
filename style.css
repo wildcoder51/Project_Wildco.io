@@ -113,8 +113,8 @@ main {
 }
 
 /* Bouton */
-#myBtn {
-    display: transparent;
+#Btn {
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -128,7 +128,7 @@ main {
     border-radius: 10px;
     font-size: 18px;
  }
- #myBtn:hover {
+ #Btn:hover {
     background-color: #555;
  }
 
