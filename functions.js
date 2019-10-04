@@ -21,8 +21,20 @@ function fn () {
 
   const flexBox1 = document.getElementsByClassName('flex1');
   const flexBox2 = document.getElementsByClassName('flex2');
-
-
+  
+  const button = document.getElementById("open-modal");
+  let count = 0;
+  button.addEventListener('click', () => {
+    count += 1;
+    const modal = document.getElementById("modal");
+    modal.style.display = "block";
+  });
+  const buttonClose = document.getElementById("close-modal")
+  buttonClose.addEventListener('click', () => {
+    count += 1;
+    const modal = document.getElementById("modal");
+    modal.style.display = "none";
+  });
 
 
 }

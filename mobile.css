@@ -163,3 +163,66 @@ footer{
     padding: 0 .25rem;
 
 }
+
+
+/* Button */ 
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: none;
+  }
+  
+  .center {
+    text-align: center;
+    display: none;
+
+  }
+  
+  #open-modal {
+    padding: 10px 20px;
+    background: #F76C6C;
+    color: #fff;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    display: none;
+
+  }
+  
+  #close-modal {
+    padding: 10px 20px;
+    background: #F76C6C;
+    color: #fff;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    display: none;
+
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  .modal-inner {
+    margin-top: 30px;
+    display: none;
+
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    background-color: red;
+    display: none;
+
+  }

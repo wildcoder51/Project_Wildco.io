@@ -144,7 +144,7 @@ main {
     padding:10px;
 }
 footer{
-    background: linear-gradient(#F99797, rgb(130, 179, 149));
+    background: linear-gradient(whitesmoke, #F99797);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,3 +172,47 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+
+/*Button*/ 
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #F76C6C;
+    color: #fff;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin : 0px 50px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  .modal-inner {
+    margin-top: 30px;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    background-color: red;
+  }
