@@ -62,8 +62,9 @@ hr {
 main {
     margin-top:30px;
 }
-.logo_entreprises {
-    
+.logo_entreprises:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 .nom_entreprises {
     font-family: 'Righteous', cursive;
