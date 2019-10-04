@@ -116,8 +116,8 @@ hr {
     font-size: 18px;
 }
 
-#myBtn {
-    display: transparent; 
+#Btn {
+    display: none; 
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
@@ -132,7 +132,7 @@ hr {
     font-size: 18px;
 }
 
-#myBtn:hover {
+#Btn:hover {
     background-color: #555;
 }
 
