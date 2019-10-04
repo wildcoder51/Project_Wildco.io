@@ -3,7 +3,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-
+function fn () {
   //Get the button
   const mybutton = document.getElementById("Btn");
 
@@ -25,13 +25,13 @@ function topFunction() {
 
 
 
+}
 
-// domReady(fn) 
+function domReady(fn) {
+  document.addEventListener("DOMContentLoaded", fn);
+  if (document.readyState === "interactive" || document.readyState === "complete" ) {
+    fn();
+  }
+}
 
-// function fn () {
-//   function domReady(fn) {
-//     document.addEventListener("DOMContentLoaded", fn);
-//     if (document.readyState === "interactive" || document.readyState === "complete" ) {
-//       fn();
-//     }
-//   }
+domReady(fn) 
